@@ -17,7 +17,7 @@ class App extends Component {
     this.state = {
       user: null,
       msgAlerts: [],
-      conflict: false
+      bill: null
     }
   }
 
