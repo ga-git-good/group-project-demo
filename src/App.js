@@ -18,7 +18,7 @@ class App extends Component {
       user: null,
       msgAlerts: [],
       bill: null,
-      hanif: '12123213231'
+      hanif: true
     }
   }
 
