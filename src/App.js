@@ -19,7 +19,7 @@ class App extends Component {
       user: null,
       msgAlerts: [],
       bill: null,
-      hanif: 'Bill',
+      hanif: 'Jonah',
       global: AppContext
     }
   }
