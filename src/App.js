@@ -32,6 +32,7 @@ class App extends Component {
 
   msgAlert = ({ heading, message, variant }) => {
     const id = uuid()
+    console.log('tony changed this')
     this.setState((state) => {
       return {
         msgAlerts: [...state.msgAlerts, { heading, message, variant, id }]
