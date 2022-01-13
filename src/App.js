@@ -10,6 +10,7 @@ import SignUp from './components/auth/SignUp'
 import SignIn from './components/auth/SignIn'
 import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
+import AppContext from './components/context'
 
 class App extends Component {
   constructor(props) {
@@ -18,7 +19,8 @@ class App extends Component {
       user: null,
       msgAlerts: [],
       bill: null,
-      hanif: 'Bill'
+      hanif: 'Bill',
+      global: AppContext
     }
   }
 
